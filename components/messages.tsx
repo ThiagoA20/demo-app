@@ -1,7 +1,6 @@
 import React from 'react'
 import {StyleSheet, Text, View, TextInput, TouchableOpacity, Image} from 'react-native'
-import {FiSearch} from 'react-icons/fi'
-import {AiOutlineClose} from 'react-icons/ai'
+import Icon from 'react-native-vector-icons/EvilIcons'
 
 const Messages = () => {
     return (
@@ -10,14 +9,14 @@ const Messages = () => {
                 <View style={styles.searchContainer}>
                     <View style={styles.searchbar}>
                         <TouchableOpacity style={styles.btnsearch}>
-                            <FiSearch />
+                            <Icon name="search" size={20} />
                         </TouchableOpacity>
                         <TextInput
                             style={styles.textinputStyle}
                             placeholder="Search in messages" 
                         />
                         <TouchableOpacity style={styles.btnsearch}>
-                            <AiOutlineClose style={{color: "#BDC7AC"}} />
+                            <Icon name="close" size={20} style={{color: "#BDC7AC"}} />
                         </TouchableOpacity>
                     </View>
                 </View>
@@ -66,7 +65,7 @@ const styles = StyleSheet.create({
     },
     searchContainer: {
         flex: 1,
-        marginTop: 20,
+        marginTop: 35,
         justifyContent: 'center',
         alignItems: 'center',
     },
