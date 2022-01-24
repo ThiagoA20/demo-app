@@ -34,7 +34,7 @@ const Messages = () => {
                             <Image style={styles.messageImageUser} source={require('../assets/Kate.png')} />
                         </View>
                         <View style={styles.dateContainer}>
-                            <Text style={{color: "#392413", opacity: 0.6}}>7 December 2020</Text>
+                            <Text style={{color: "#392413", opacity: 0.6, fontSize: 10}}>7 December 2020</Text>
                         </View>
                     </View>
                 </View>
