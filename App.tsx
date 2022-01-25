@@ -10,8 +10,8 @@ import Details from './components/details'
 export default function App() {
   return (
     // <Messages />
-    <Chat />
-    // <Profile />
+    // <Chat />
+    <Profile />
     // <Reviews />
     // <Details />
   );
