@@ -160,8 +160,8 @@ const styles = StyleSheet.create({
         borderRadius: 8
     },
     sectionTextContainer: {
-        width: "60%",
-        marginLeft: 20
+        width: "65%",
+        marginLeft: 15
     },
     sectionText: {
         fontSize: 14,

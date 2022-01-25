@@ -11,8 +11,8 @@ export default function App() {
   return (
     // <Messages />
     // <Chat />
-    <Profile />
-    // <Reviews />
+    // <Profile />
+    <Reviews />
     // <Details />
   );
 }
