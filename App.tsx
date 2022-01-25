@@ -12,7 +12,7 @@ export default function App() {
     // <Messages />
     // <Chat />
     // <Profile />
-    <Reviews />
-    // <Details />
+    // <Reviews />
+    <Details />
   );
 }
