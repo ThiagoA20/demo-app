@@ -15,3 +15,8 @@ On the menu in the left side, click on "Run in web browser", click with the
 right button in the new screen and then click in inspect. Change the view to
 mobile by clicking on the mobile icon on the top left side of the inspect bar.
 
+---
+
+The other screens are inside the components folder, I've already imported
+it inside the App.tsx file, just comment the actual line being returned and
+remove the comment of the screen that you want to see.
